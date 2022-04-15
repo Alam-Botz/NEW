@@ -1,0 +1,56 @@
+{
+  "name": "RamdaniOfficial",
+  "version": "1.0.0",
+  "description": "Base Ori by Ramdani Official",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "keywords": [
+    "termux",
+    "whatsapp",
+    "bot",
+    "whatsapp",
+    "bot"
+  ],
+  "author": "Ramdani Official",
+  "license": "ISC",
+  "dependencies": {
+    "@adiwajshing/baileys": "^3.5.2",
+    "cfonts": "^2.9.2",
+    "color": "^4.0.0",
+    "spinnies": "^0.5.1",
+    "fs-extra": "^10.0.1",
+    "crypto": "^1.0.1",
+    "request": "^2.88.2",
+    "moment-timezone": "^0.5.33",
+    "performance-now": "^2.1.0",
+    "node-fetch": "^2.6.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "axios": "^0.21.1",
+    "jsdom": "^16.5.0",
+    "multistream": "1.0.0",
+    "fake-useragent": "1.0.0",
+    "file-type": "^16.5.1",
+    "form-data": "^1.0.0",
+    "figlet": "^1.5.0",
+    "os": "^0.1.2",
+    "qrcode": "^1.4.4",
+    "qs": "^1.0.0",
+    "cheerio": "^1.0.0-rc.10",
+    "hxz-api": "^1.0.1",
+    "yt-search": "^2.10.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramdaniofficial/new.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ramdaniofficial/new/issues"
+  },
+  "homepage": "https://github.com/Ramdaniofficial/new/#readme"
+}
