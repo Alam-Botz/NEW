@@ -2391,7 +2391,6 @@ case 'setppbot':
 					break 
                     case 'ban':
                     case 'banned':
-                    if (!isRegister) return freply(mess.regist)
 					if (!isOwner) return freply(mess.only.ownerB)
 					bennet = body.slice(6)
 					_banned.push(`${bennet}`)
@@ -2400,8 +2399,6 @@ case 'setppbot':
 	                break
                     case 'unban':
                     case 'unbanned':
-                    if (!isRegister) return freply(mess.regist)
-                    if (isBanned) return freply(mess.banned)
 					if (!isOwner) return freply(mess.only.ownerB)
 					bennet = body.slice(8)
 					_banned.splice(`${bennet}`, 1)
@@ -2452,12 +2449,10 @@ case 'leaveall':
 }
              break
 case 'eval': 
-             if (!isRegister) return freply(mess.regist)
-             if (isBanned) return freply(mess.banned)
              try {
-             if (!isOwner) return
-             sy = args.join(' ')
-             return eval(sy)
+             if (!isOwner) return freply (mess.ownerB)
+             teksnye = args.join(' ')
+             return eval(teksnye)
              } catch(e) {
              freply(`${e}`)
 }
